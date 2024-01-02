@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=VT323&display=swap');
+
+body{
+    background-image: linear-gradient(to bottom, #AABFB9, #4D7A8C) ;
+    background-attachment: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: black;
+}
+
+h1{
+    font-family:'Amatic+SC&family';
+    font-size: 3em;
+}
+
+p{
+  font-family:'Amatic+SC&family';
+}
+
