@@ -10,18 +10,18 @@
       }
 
       table{
-        width: 200px;
-        border-collapse: collapse;
-        tr.linha{
-            background-color: rgb(110, 187, 187);
-        }
-        td#dado{
-            background-color: rgba(0, 0, 255, 0.377);
-        }
-      }
+        width: 300px;
+        height: 300px;
+        border-collapse: collapse;}
+       
       td{
         border: 1px solid black;
-        padding: 8px;
+        text-align: center;
+        vertical-align: middle;
+       }
+
+       .numero{
+        text-align: right;
        }
     </style>
 </head>
@@ -36,22 +36,22 @@
 
     <table>
 
-        <TR class="linha"> <!--Primeira linha-->
+        <TR > <!--Primeira linha-->
             <TD>A1</TD> <TD>B1</TD> <TD>C1</TD> 
         </TR>
 
         <TR> <!--Segunda linha-->
-            <TD>A2</TD> <TD>B2</TD> <TD>C2</TD>
+            <TD>A2</TD> <TD>B2</TD> <TD class="numero">C2</TD>
         </TR>
 
         <TR> <!--Terceira linha-->
-            <TD id="dado">A3</TD> <TD>B3</TD> <TD>C3</TD>
+            <TD>A3</TD> <TD>B3</TD> <TD class="numero">C3</TD>
         </TR>
 
         <tr> <!--Quarta linha-->
             <td>A4</td> <TD>B4</TD> <TD>C4</TD>
         </tr>
-        
+
     </table>
 </body>
 </html>
