@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela 004</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        caption{
+            background-color: rgba(128, 128, 128, 0.685);
+            border: 1px solid black;
+        }
+
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            margin: auto;
+            margin-top: 15%;
+            
+        }
+
+        th{
+            border: 1px solid black;
+        }
+        td {
+            padding: 5px;
+            border: 1px solid black;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+     <Table>
+        <caption>
+            Pesquisa sobre filmes favoritos
+        </caption>
+         <thead>
+             <tr>
+                <th scope="col">Grupo</th> <th scope="col">Nomes</th> <th colspan="3" scope="colgroup">Filmes</th>
+             </tr>
+         </thead>
+
+          <tbody>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Mulheres</th> <td>Ana maria</td> <td>Alien</td> <td>Rambo</td> <td>Vingadores</td>
+            </tr>
+             <tr>
+                <td>Beatriz souza</td> <td>Hulk</td> <td>Inseption</td> <td>Batman</td>
+             </tr>
+             <tr>
+                <td>Claudia melo</td> <td>Oblivison</td> <td>Matrix</td> <td>Big hero</td>
+             </tr>
+             <tr>
+                <th rowspan="3" scope="rowgroup">Homens</th> <td>Bruno mendonça</td> <td>Intocaveis</td> <td>Amnésia</td> <td>Gladiador</td>
+             </tr>
+             <tr>
+                <td>Daniel melo</td> <td>Wall-e</td> <td>Oldboy</td> <td>Dangal</td>
+             </tr>
+             <tr>
+                <td>Fabiano mota</td> <td>Star Wars 5</td> <td>Taxi driver</td> <td>Toy story</td>
+             </tr>
+         </tbody>
+
+     </Table>
+</body>
+</html>

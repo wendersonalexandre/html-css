@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        caption{
+            padding: 8px;
+            font-size: 1.3em;
+            font-weight: bolder;
+        }
+
+        td,th{
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+
+        .cnome{
+            background-color: rgba(231, 11, 11, 0.829);
+        }
+
+        .csexo{
+            background-color: rgba(255, 0, 0, 0.712);
+        }
+
+        .cidade{
+            background-color: rgba(255, 0, 0, 0.562);
+        }
+
+        .cprofi{
+            background-color: rgba(255, 0, 0, 0.425);
+        }
+    </style>
+</head>
+<body>
+     <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprofi">
+        </colgroup>
+        <caption>Cadastro</caption>
+
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+
+        <tr>
+            <td>Ana maria</td>
+            <td>F</td>
+            <td>34</td>
+            <td>Jornalista</td>
+        </tr>
+
+        <tr>
+            <td>Claudio</td>
+            <td>M</td>
+            <td>22</td>
+            <td>Programador</td>
+        </tr>
+
+        <tr>
+            <td>Vnessa</td>
+            <td>F</td>
+            <td>24</td>
+            <td>Vendedora</td>
+        </tr>
+
+        <tr>
+            <td>Mario</td>
+            <td>M</td>
+            <td>30</td>
+            <td>Programador</td>
+        </tr>
+
+        <tr>
+            <td>Erick</td>
+            <td>M</td>
+            <td>23</td>
+            <td>Musico</td>
+        </tr>
+
+        <tr>
+            <td>Ana Caroline</td>
+            <td>F</td>
+            <td>19</td>
+            <td>Contadora</td>
+        </tr>
+     </table>
+</body>
+</html>

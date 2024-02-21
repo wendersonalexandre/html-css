@@ -25,22 +25,43 @@
           width: 650px;
           border-collapse: collapse;
           background-color: azure;
+          position: relative;
           
         }
+
+        caption{
+            background-color: grey;
+            font-size: 17px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: 0;
+
+
+        }
+
          table > thead{
             background-color: rgba(48, 47, 47, 0.678);
-            color: white;
+            color: rgb(53, 52, 52);
          }
 
         table, thead, th{
             border: 1px solid rgb(15, 15, 15) ;
             padding: 10px;
+            background-color: rgba(226, 223, 223, 0.938);
         }
 
         table,tbody,td{
             border: 1px solid rgb(13, 13, 14) ;
             padding: 10px;
 
+        }
+
+        tbody > tr:nth-child(2n){
+            background-color: rgba(128, 128, 128, 0.397);
         }
         table > tfoot{
             background-color: rgba(80, 80, 80, 0.336);
@@ -62,6 +83,9 @@
      -->
      
      <table>
+        <caption>
+            Lista de unidades federativas do Brasil
+        </caption>
         <thead>
             <th scope="col" >Posição</th> <th scope="col">Unidade federativa</th> <th scope="col">População (2022)</th> <th scope="col">População (2010)</th> <th scope="col">Mudança</th> <th scope="col">% da população</th> 
         </thead>
@@ -186,6 +210,5 @@
             </tr>
         </tfoot>
      </table>
-
 </body>
 </html>
