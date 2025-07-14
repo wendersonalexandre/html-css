@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>testes de formularios</h1>
+    <form action="#" autocomplete="on" method="get">
+
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <p>
+                <label for="inome">Nome:</label>
+                <input type="text" name="nome" id="inome" required maxlength="30" placeholder="Nome completo" autocomplete="name">
+            </p>
+            <p>
+                   <label for="iemail">Email:</label>
+                   <input type="email" name="email" id="iemail" required max="50" placeholder="Digite seu email" autocomplete="email">
+            </p>
+            <p>
+                <label for="itelefone">Telefone:</label>
+                <input type="tel" name="telefone" id="itelefone" required placeholder="(XX) XXXXX-XXXX" autocomplete="tel" pattern="^\(\d{2}\)\s\d{4,5}-\d{4}$" >
+            </p>
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
