@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>media query - 005</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
     <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
     <header>
         <h1>Meu site</h1>
-        <menu>
+        <i id="burguer" class="material-symbols-outlined">menu</i>
+        <menu id="menu">
             <ul>
                 <li><a href="#">Opção 1</a></li>
                 <li><a href="#">Opção 2</a></li>
@@ -41,5 +43,19 @@
             </p>
         </article>
     </main>
+
+    <script>
+        const menuBurguer = document.getElementById('menu');
+        const iconBurguer = document.getElementById('burguer');
+
+        iconBurguer.addEventListener('click',()=>{
+            if(menuBurguer.style.display == "none"){
+                menuBurguer.style.display = "block";
+            } else{
+                menuBurguer.style.display = "none";
+            }
+        } )
+
+    </script>
 </body>
 </html>
