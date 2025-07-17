@@ -54,6 +54,10 @@ menu > ul > li > a{
     border-top: 2px solid gray;
 }
 
+menu a:hover{
+    background-color: rgba(44, 43, 43, 0.349);
+}
+
 main{
     width: 90vw;
     background-color: white;
@@ -73,9 +77,10 @@ article p{
     text-indent: 20px;
 }
 
-img{
+img{ 
     width: 95%;
-    height: 400px;
-    padding: 10px;
-
+    height: 20%;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
 }
