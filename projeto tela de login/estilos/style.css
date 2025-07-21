@@ -27,12 +27,12 @@ main{
     transform: translate(-50%,-50%);
     background-color: white;
     width: 250px;
-    height: 500px;
+    height: 520px;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
-    transition: width 0.8s, heigth 0.8s;
     transition-timing-function: ease;
+    transition: width 0.8s, heigth 0.8s;
 }
 
 #login > #imagem{
@@ -58,4 +58,79 @@ div#formulario > p{
     font-size: 0.8em;
     text-align: center;
     
+}
+
+.campo >label{
+    display: none;
+}
+
+.campo input{
+    background-color: #5a9c9a;
+    border: none;
+    font-size: 1em;
+    height: 100%;
+    width: calc(100% - 45px);
+    border-radius: 8px;
+    transform: translateY(-8px);
+}
+
+.campo input:focus-within{
+    background-color: white;
+
+}
+
+.campo{
+    background-color: #5f2c83;
+    border: 1px solid #5f2c83;
+    width: 100%;
+    display: block;
+    height: 40px;
+    border-radius: 8px;
+    margin: 5px 0px;
+}
+
+.campo i{
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+
+}
+
+form > input[type=submit]{
+    display: block;
+    font-size: 1em;
+    height: 40px;
+    width: 100%;
+    background-color: #49a09d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+form > input[type=submit]:hover{
+    background-color: #387976;
+}
+
+.button{
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    padding-top: 7px;
+     background-color: white;
+     border: 1px solid #49a09d;
+     border-radius: 5px;
+     text-decoration: none;
+     color:#387976 ;
+     margin-top: 5px;
+}
+
+.button:hover{
+    background-color: #6ccfcc;
+}
+
+.button i{
+    font-size: 0.8em;
 }

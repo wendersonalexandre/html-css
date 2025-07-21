@@ -17,7 +17,7 @@
 
     section#login{
         width: 80vw;
-        
+        height: 300px;
     }
 
     section#login > div#imagem{
@@ -40,6 +40,7 @@
 
     section#login{
         width: 950px;
+        height: 400px;
     }
 
     section#login > div#imagem{
@@ -59,8 +60,68 @@
 
     div#formulario > p{
         font-size: 1.2em;
+        margin: 10px;
 
     }
+
+    .campo input{
+    background-color: #5a9c9a;
+    border: none;
+    font-size: 1em;
+    height: 100%;
+    width: calc(100% - 45px);
+    transform: translateY(-8px);
+    border-radius: 8px;
+}
+
+.campo input:focus-within{
+    background-color: white;
+}
+
+    .campo{
+    background-color: #5f2c83;
+    border: 1px solid #5f2c83;
+    width: 49%;
+    display: block;
+    height: 40px;
+    border-radius: 8px;
+    margin: 5px 0px;
+}
+
+    form > input[type=submit]{
+    display: block;
+    font-size: 1em;
+    height: 40px;
+    width: 49%;
+    background-color: #49a09d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+form > input[type=submit]:hover{
+    background-color: #387976;
+}
+
+
+.button{
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 49%;
+    height: 40px;
+    padding-top: 7px;
+     background-color: white;
+     border: 1px solid #49a09d;
+     border-radius: 5px;
+     text-decoration: none;
+     color:#387976 ;
+     margin-top: 5px;
+}
+    
+.button:hover{
+    background-color: #6ccfcc;
+}
 
 
 }
