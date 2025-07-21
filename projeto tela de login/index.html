@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela de login</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media-query.css">
+
 </head>
 <body>
     <main>
@@ -18,8 +21,25 @@
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
 
-                <form action="login.php" method="post">
+                <form action="login.php" method="post" autocomplete="on">
+                    <div class="campo">
+                        <i class="fa-solid fa-user-large"></i>
+                        <input type="email" name="usu" id="iname" required autocomplete="email" placeholder="Seu email" maxlength="30">
+                        <label for="iname">Login</label>
 
+                    </div>
+
+                    <div class="campo">
+                        <i class="fa-solid fa-key"></i>
+                        <input type="password"
+                        name="senha" id="isenha" required  autocomplete="current-password" placeholder="Sua senha" minlength="8" maxlength="10">
+                        <label for="isenha">Senha</label>
+                    </div>
+                    <input type="submit" value="Entrar">
+                    <a href="esqueci.html">
+                        Esqueci a senha
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
                 </form>
             </div>
         </section>
