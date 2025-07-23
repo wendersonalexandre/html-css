@@ -5,36 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>flexible box</title>
     <style>
+
         .conteiner{
             background-color: lightcoral;
             border-radius: 5px;
             border: 1px solid black;
 
-            
             display: flex;
-            flex-direction: row;
-            flex-wrap: wrap-reverse;
+            flex-flow:row wrap;
         }
 
         .item{
             background-color: aquamarine;
             border: 1px solid black;
             padding: 5px;
-            margin: 4px;
+            margin: 5px;
             text-align: center;
-            border-radius: 3px; 
+            border-radius: 5px;
+            flex: auto;
         }
     </style>
 </head>
 <body>
     <div class="conteiner">
-        <div class="item">A</div>
-        <div class="item">B</div>
-        <div class="item">C</div>
-        <div class="item">D</div>
-        <div class="item">E</div>
-        <div class="item">F</div>
-        <div class="item">G</div>
+        <div class="item">Exemplo de Bloco A</div>
+        <div class="item">Exemplo de Bloco B</div>
+        <div class="item">Exemplo de Bloco C</div>
+        <div class="item">Exemplo de Bloco D</div>
+        <div class="item">Exemplo de Bloco E</div>
+        <div class="item">Exemplo de Bloco F</div>
+        <div class="item">Exemplo de Bloco G</div>
     </div>
 </body>
 </html>
