@@ -26,14 +26,13 @@ header{
 
 h1{
     flex: 0 0 200px;
-    border: 1px solid black;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.815);
 }
 
 nav{
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
-    border: 1px dashed black;
 }
 
 nav a{
@@ -60,6 +59,4 @@ main{
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0,336);
     color: black;
 }
-
-
 
